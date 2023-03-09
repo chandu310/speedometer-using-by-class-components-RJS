@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.main-container {
+  background-color: #07080c;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.second-container {
+  text-align: center;
+}
+.main-head {
+  font-size: 40px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.second-head {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+p {
+  font-size: 14px;
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+}
+.image {
+  height: 200px;
+  width: 400px;
+}
+button {
+  margin-left: 20px;
+  height: 34px;
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.accel-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+}
+.break-btn {
+  background-color: transparent;
+  color: #94a3b8;
+  border: #94a3b8 solid 2px;
+}
